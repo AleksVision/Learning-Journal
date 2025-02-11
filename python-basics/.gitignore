@@ -1,0 +1,106 @@
+### Python ###
+# Байт-скомпилированные / оптимизированные / DLL файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C расширения
+*.so
+
+# Дистрибутивы / пакеты
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Виртуальное окружение
+myenv/
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+.ENV/
+env/
+
+# pipenv
+.Python
+Pipfile.lock
+
+### IDE ###
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+### macOS ###
+# Общие файлы системы
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Иконки
+Icon
+
+# Миниатюры
+._*
+
+# Файлы, которые могут появиться на внешних дисках
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Директории, которые могут быть созданы на удаленном AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Логи и базы данных ###
+*.log
+*.sqlite
+*.db
+
+### Локальные файлы конфигурации ###
+config.local.py
+settings.local.py
+*.local.py
+.env.local
+.env.*.local
+
+### Временные файлы ###
+*.bak
+*.swp
+*.swo
+*~
+
+### Тестовое покрытие ###
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+### Документация ###
+docs/_build/
+doc/_build/
+
+### Личные заметки ###
+TODO.md
+NOTES.md
