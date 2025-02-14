@@ -18,7 +18,7 @@ while temp_number > 0:
     temp_number //= 16
 
 # Проверка через встроенную функцию
-print(f"Наша реализация: {result_hex}")
+print(f"Реализация: {result_hex}")
 print(f"Проверка через hex(): {hex(number)[2:]}")
 
 # Решение 2 
@@ -65,9 +65,9 @@ def main():
         # Получаем число от пользователя
         number = int(input("Введите целое число: "))
         
-        # Получаем результат нашей функции
+        # Получаем результат  функции
         custom_result = decimal_to_hex(number)
-        print(f"Наша функция: {custom_result}")
+        print(f"Функция: {custom_result}")
         
         # Получаем результат встроенной функции hex() (без префикса 0x)
         builtin_result = hex(number)[2:] if number >= 0 else hex(number)[3:]
