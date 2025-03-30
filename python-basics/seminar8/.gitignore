@@ -1,11 +1,13 @@
-# Генерируемые файлы
-res.csv
+# Сгенерированные файлы
+*.pkl
 res.json
 output.json
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Системные файлы
 .DS_Store
