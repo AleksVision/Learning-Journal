@@ -1,0 +1,5 @@
+python-telegram-bot>=20.0
+nltk>=3.8
+scikit-learn>=1.0
+SpeechRecognition>=3.8
+google-api-python-client>=2.0

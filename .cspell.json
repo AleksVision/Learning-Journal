@@ -1,0 +1,27 @@
+{
+    "version": "0.2",
+    "language": "en,ru",
+    "words": [
+        "googleapiclient",
+        "levelname",
+        "punkt",
+        "creds",
+        "lastrowid",
+        "Автозапись",
+        "ГГГГ",
+        "распарсить",
+        "executemany",
+        "venv",
+        "pycache",
+        "httplib",
+        "dotenv",
+        "nltk",
+        "scikit",
+        "pytz"
+    ],
+    "ignorePaths": [
+        "node_modules/**",
+        "venv/**",
+        "**/__pycache__/**"
+    ]
+} 
