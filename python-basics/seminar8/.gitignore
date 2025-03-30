@@ -1,0 +1,11 @@
+# Генерируемые файлы
+res.csv
+res.json
+output.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Системные файлы
+.DS_Store
