@@ -1,13 +1,21 @@
-# Сгенерированные файлы
-*.pkl
+# Временные файлы
+*.json
 *.csv
-output.json
-res.json
+*.pkl
 
-# Python кэш
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
 
 # Системные файлы
 .DS_Store
